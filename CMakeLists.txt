@@ -18,3 +18,4 @@ add_executable(AcWing3302_SuffixExpression Acwing/graduate/3/AcWing3302_SuffixEx
 add_executable(AcWing18 Acwing/graduate/4/AcWing18.cpp)
 add_executable(AcWing3766 Acwing/graduate/4/AcWing3766.cpp)
 add_executable(AcWing3786 Acwing/graduate/5/AcWing3786.cpp)
+add_executable(AcWing3765 Acwing/graduate/5/AcWing3765.cpp)
