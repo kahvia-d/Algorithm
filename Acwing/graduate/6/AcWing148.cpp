@@ -40,5 +40,7 @@ int main(){
 
     cout<<strength_used;
 
+    return 0;
+
 }
 
