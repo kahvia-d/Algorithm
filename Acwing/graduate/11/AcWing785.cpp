@@ -45,6 +45,31 @@ void shell_sort(){
 
 }
 
+void quick_sort(int start, int end){
+    if (start >= end) return;
+    //左右指针
+    int left = start - 1;
+    int right = end + 1;
+    //取分界值
+    int mid_x = nums[(left + right) / 2];
+    while (left < right){
+        //找到分界值左边大于分界值的数
+        do left++; while (nums[left] < mid_x);
+        //找到分界值右边小于分界值的数
+        do right--; while (nums[right] > mid_x);
+        //交换这两个数，此后小的数在分界值左边，大的数在分界值右边
+
+        if (left < right)
+            swap(nums[left], nums[right]);
+
+    }//循环结束后，分界值左边的数都小于分界值，右边则大于分界值
+
+    //分界值的左区间和右区间同理进行快排
+    quick_sort(start, right);
+    quick_sort(right + 1, end);
+}
+
+
 int main(){
     cin>>n;
 
@@ -52,7 +77,9 @@ int main(){
         cin>>nums[i];
 
 //    insert_sort();
-    shell_sort();
+//    shell_sort();
+    quick_sort(0, n - 1);
+
     for (int i = 0; i < n; i++)
         cout<<nums[i]<<" ";
 
