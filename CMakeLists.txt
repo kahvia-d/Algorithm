@@ -37,3 +37,4 @@ add_executable(high_accuracy_add Acwing/base/basical_algorithm/high_accuracy_add
 add_executable(high_accuracy_sub Acwing/base/basical_algorithm/high_accuracy_sub.cpp)
 add_executable(high_accuracy_mul Acwing/base/basical_algorithm/high_accuracy_mul.cpp)
 add_executable(high_accuracy_div Acwing/base/basical_algorithm/high_accuracy_div.cpp)
+add_executable(prefix_sum Acwing/base/basical_algorithm/prefix_sum.cpp)
