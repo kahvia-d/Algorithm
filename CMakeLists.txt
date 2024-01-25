@@ -39,3 +39,4 @@ add_executable(high_accuracy_mul Acwing/base/basical_algorithm/high_accuracy_mul
 add_executable(high_accuracy_div Acwing/base/basical_algorithm/high_accuracy_div.cpp)
 add_executable(prefix_sum Acwing/base/basical_algorithm/prefix_sum.cpp)
 add_executable(sum_of_submatrices Acwing/base/basical_algorithm/sum_of_submatrices.cpp)
+add_executable(difference Acwing/base/basical_algorithm/difference.cpp)
