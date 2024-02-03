@@ -44,3 +44,4 @@ add_executable(difference_matrix Acwing/base/basical_algorithm/difference_matrix
 add_executable(longest_consecutive_non-repeating_subsequence  "Acwing/base/basical_algorithm/longest_consecutive_non-repeating_subsequence .cpp")
 add_executable(AcWing801 Acwing/base/basical_algorithm/AcWing801.cpp)
 add_executable(sum_of_interval Acwing/base/basical_algorithm/sum_of_interval.cpp)
+add_executable(segments_merge Acwing/base/basical_algorithm/segments_merge.cpp)
