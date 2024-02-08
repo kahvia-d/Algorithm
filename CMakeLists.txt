@@ -45,3 +45,4 @@ add_executable(longest_consecutive_non-repeating_subsequence  "Acwing/base/basic
 add_executable(AcWing801 Acwing/base/basical_algorithm/AcWing801.cpp)
 add_executable(sum_of_interval Acwing/base/basical_algorithm/sum_of_interval.cpp)
 add_executable(segments_merge Acwing/base/basical_algorithm/segments_merge.cpp)
+add_executable(if_son_string Acwing/base/basical_algorithm/if_son_string.cpp)
